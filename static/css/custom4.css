@@ -31,10 +31,6 @@ body, html {
   color: white;
 } 
 
-img{
-    border-radius: 50%;
-}
-
 .title{
     text-align: center;
     padding-top: 70px;
@@ -56,11 +52,18 @@ img{
     
 }
 
-#km-photo{
-    margin:30px;
+.image{
+    border-radius: 20%;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.center-image{
     display: block;
     margin-left: auto; 
     margin-right: auto;
+
 }
 
 
