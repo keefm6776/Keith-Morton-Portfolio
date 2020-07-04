@@ -31,26 +31,23 @@ body, html {
   color: white;
 } 
 
-.About{
-    padding-top: 140px;
-}
-
 img{
     border-radius: 50%;
 }
 
 .title{
     text-align: center;
+    padding-top: 70px;
 }
 
 #about1{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
     text-align: justify;
 }
 
 #about2{
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: justify;
 }
 
