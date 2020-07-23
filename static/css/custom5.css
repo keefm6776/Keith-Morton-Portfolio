@@ -72,9 +72,16 @@ body, html {
     margin-right: auto;
 }
 
-.desktop-icon{
-    font-size: 230px;
+.icons{
+    font-size: 40px;
+    display: block;
+    margin-top: auto; 
+    margin-bottom: auto;
 }
+
+.fa {
+    color: black;
+    }
 
 
 
