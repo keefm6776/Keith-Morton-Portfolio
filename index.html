@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		ntegrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="/static/css/custom7.css">
+	<link rel="stylesheet" href="static/css/custom7.css">
 
 	<!--fontawesome js link-->
 
@@ -74,7 +74,7 @@
 			<!--title-->
 
 			<div class="row">
-				<img src="/static/images/KeithMorton.jpg" alt="Keith Photo" class="center-image km-photo">
+				<img src="static/images/KeithMorton.jpg" alt="Keith Photo" class="center-image km-photo">
             </div>
 			<!--row-->
 			
@@ -135,17 +135,17 @@
 
 		<div class="row justify-content-center">
 			<div class="col-sm-6 col-lg-3">
-				<img src="/static/images/css.png" alt="CSS logo" class="center-image image">
+				<img src="static/images/css.png" alt="CSS logo" class="center-image image">
             </div>
 			<!--grid-->
 
 			<div class="col-sm-6 col-lg-3">
-				<img src="/static/images/javascript.png" alt="Javascript logo" class="center-image image">
+				<img src="static/images/javascript.png" alt="Javascript logo" class="center-image image">
             </div>
 			<!--grid-->
 
 			<div class="col-sm-6 col-lg-3">
-				<img src="/static/images/html5.png" alt="HTML 5 logo" class="center-image image">
+				<img src="static/images/html5.png" alt="HTML 5 logo" class="center-image image">
        		</div>
 			<!--grid-->
 		</div>
@@ -153,17 +153,17 @@
 
 		<div class="row justify-content-center">
 			<div class="col-sm-6 col-lg-3">
-				<img src="/static/images/django.png" alt="Django logo" class="center-image image">
+				<img src="static/images/django.png" alt="Django logo" class="center-image image">
             </div>
 			<!--grid-->
 
 			<div class="col-sm-6 col-lg-3">
-				<img src="/static/images/python.jpg" alt="Python logo" class="center-image image">
+				<img src="static/images/python.jpg" alt="Python logo" class="center-image image">
             </div>
 			<!--grid-->
 
 			<div class="col-sm-6 col-lg-3">
-				<img src="/static/images/sql.jpg" alt="SQL logo" class="center-image image">
+				<img src="static/images/sql.jpg" alt="SQL logo" class="center-image image">
             </div>
 			<!--grid-->
 		</div>
@@ -196,7 +196,7 @@
                     </div>
                 
 
-                    <img src="/static/images/monkees.png" alt="Monkees Fan Site Image" class="center-image image">
+                    <img src="static/images/monkees.png" alt="Monkees Fan Site Image" class="center-image image">
 
                     <div class="row justify-content-center">
                         <div class="icon-background">
@@ -233,7 +233,7 @@
                     </div>
                     <!--row-->
 
-                    <img src="/static/images/simon.png" alt="Ultimate Simon Site Logo" class="center-image image">
+                    <img src="static/images/simon.png" alt="Ultimate Simon Site Logo" class="center-image image">
                     <div class="row justify-content-center">
 			            <div class="icon-background">
                             <a href="https://keefm6776.github.io/ultimate-simon/index.html" target="_blank"><i class="fa fa-desktop"></i></a> 
@@ -269,7 +269,7 @@
                     </div>
                 
 
-                    <img src="/static/images/recipes.png" alt="Global Recipes Site Image" class="center-image image">
+                    <img src="static/images/recipes.png" alt="Global Recipes Site Image" class="center-image image">
                     <div class="row justify-content-center">
                         <div class="icon-background">
                             <a href="https://cookery-website-flask-mongo.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i></a> 
@@ -305,7 +305,7 @@
                     </div>
                     <!--row-->
 
-                    <img src="/static/images/indiana.png" alt="Indiana Jones Artefact Site Logo" class="center-image image">
+                    <img src="static/images/indiana.png" alt="Indiana Jones Artefact Site Logo" class="center-image image">
                     <div class="row justify-content-center">
 			            <div class="icon-background">
                             <a href="https://ijones-artefact-sales.herokuapp.com/" target="_blank"><i class="fa fa-desktop"></i></a> 
@@ -328,11 +328,24 @@
     <!--projects-->
 
 <!--########  CONTACT ME SECTION  ##########-->
+    <div id="contact">
+    	<div class="title">
+    		<h1><b>CONTACT</b></h1>
+	    </div>
+        <!--title-->
 
-	<div class="title">
-		<h1><b>CONTACT</b></h1>
-	</div>
-    <!--title-->
+        <form id="contact-form" class="justify-content-center" action="contactform.php" method="post">
+
+            <p><input type="text" name="name" placeholder="Full Name"></p>
+            <p><input type="text" name="email" placeholder="Your E-Mail"></p>
+            <p><input type="text" name="subject" placeholder="Subject"></p>
+            <p><textarea name="message" placeholder="Message"></textarea></p>
+            <p><button type="submit" name="submit">SEND MAIL</button></p>
+           
+        </form>
+
+    </div>
+    <!--contact-->
 
 <!--######### FOOTER SECTION ############-->
 
