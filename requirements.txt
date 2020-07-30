@@ -1,0 +1,11 @@
+attrs==17.3.0
+click==7.1.2
+DateTime==4.3
+Flask==1.1.2
+itsdangerous==1.1.0
+parsy==1.2.0
+pytz==2020.1
+sate==1.12.0
+toposort==1.5
+Werkzeug==1.0.1
+zope.interface==5.1.0
