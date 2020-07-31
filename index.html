@@ -11,12 +11,11 @@
 		ntegrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="static/css/custom7.css">
-
-	<!--fontawesome js link-->
+    
+	<!--js links-->
 
 	<script src="https://use.fontawesome.com/d5c62e075f.js"></script>
-
-
+    <script src="static/js/custom.js"></script> 
 
 	<title>Keith Morton - Junior Full Stack Software Developer</title>
 </head>
@@ -335,7 +334,7 @@
 	    </div>
         <!--title-->
 
-        <form id="contact-form" class="justify-content-center" action="https://formspree.io/mqkynpzk" method="post">
+        <form id="contact-form" class="justify-content-center" action="https://formspree.io/mqkynpzk" onsubmit="return validateForm()" method="post">
 
             <p><input type="text" name="name" placeholder="Full Name"></p>
             <p><input type="text" name="email" placeholder="Your E-Mail"></p>
