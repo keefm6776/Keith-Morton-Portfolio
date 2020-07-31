@@ -28,6 +28,7 @@ body, html {
     background-color: grey;
 }
 
+
 /* ###### HERO IMAGE STYLING ##### */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (background1.jpg). This will make the text easier to read */
@@ -54,6 +55,10 @@ body, html {
 } 
 
 /* ###### ABOUT SECTION STYLING ##### */
+
+#about{
+    background-color: #C5C1C0;
+}
 
 #about1{
     margin-top: 30px;
@@ -128,7 +133,7 @@ body, html {
 
 
 #projects{
-    background-color : lightgray;
+    background-color :#C5C1C0;
     padding-bottom: 50px;
 }
 
@@ -143,10 +148,25 @@ body, html {
 
 /* ###### CONTACT FORM STYLING ##### */
 
-#contact-form{
-    border-style: solid;
-    border-color: red;
-    border-width: 5px;
-    background-color: lightskyblue;
+#contact-container{
+    background-color: darkgray;
 }
 
+#contact-form{
+    border-width: 5px;
+    padding: 20px;
+}
+
+button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+/*######  FOOTER STYLING ##### */
+
+
+#footer-container{
+     background-color :#C5C1C0;
+}

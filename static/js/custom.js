@@ -8,14 +8,14 @@ function validateForm() {
     alert("Name must be filled out!");
     return false;
   }
+  if (re.test(email) == false) {
+    alert("Your email is invalid! It must be in the format USERNAME@host.com");
+    return false;
+  }
   if (y == "") {
     alert("You must include a message!");
     return false;
   }
-  if (re.test(email) == false) {
-    alert("Your email is invalid!");
-    return false;
-  }
-  
+ 
 } 
 
