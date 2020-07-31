@@ -30,6 +30,7 @@ body, html {
 
 
 /* ###### HERO IMAGE STYLING ##### */
+/* #### Adapted from code at w3schoools.com */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (background1.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background1.jpg");
@@ -101,10 +102,10 @@ body, html {
 }
 
 .fa {
-    padding: 20px;
+    padding: 10px;
     color: black;
     transition: color 1s ;
-    font-size: 40px !important;
+    font-size: 30px !important;
     }
 
 .fa:hover{
@@ -157,12 +158,18 @@ body, html {
     padding: 20px;
 }
 
-button{
+#send-button{
     padding: 10px;
     background-color: white;
+    transition: background-color 1s ;
     border-radius: 50%;
 }
 
+#send-button:hover {
+    background-color: darkgray;
+    transition: background-color 1s ;
+
+}
 
 /*######  FOOTER STYLING ##### */
 

@@ -119,6 +119,11 @@ Manual Testing:
     2.  I have tested the navbar links to make sure that they jump to the correct section in my site.
     3.  I have tested my contact form to make sure that the name & message fields cannot be left blank.  Also that the email     cannot be left blank & that an email has to be of the correct format to be accepted.
 
+Adjustments Made:
+
+    1.  I found the icons in the footer to be too large, causing the icons to spill to second line on small screens.
+    
+
 Acknowledgements
 
     https://www.w3schools.com/ for reference on syntax and usage.
