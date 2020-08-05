@@ -117,11 +117,12 @@ Manual Testing:
 
     1.  I have tested all links, to make sure that they load the correct page as per the button in question. 
     2.  I have tested the navbar links to make sure that they jump to the correct section in my site.
-    3.  I have tested my contact form to make sure that the name & message fields cannot be left blank.  Also that the email     cannot be left blank & that an email has to be of the correct format to be accepted.
+    3.  I have tested my contact form to make sure that the name & message fields cannot be left blank.  Also that the email cannot be left blank & that an email has to be of the correct format to be accepted.
 
 Adjustments Made:
 
-    1.  I found the icons in the footer to be too large, causing the icons to spill to second line on small screens.
+    1.  I found the icons in the footer to be too large, causing the icons to spill to second line on small screens.  I reduced the size of the icons by 5px, which rectifies this issue.
+    2.  I found on extra small screens that the navbar was sitting over my name on the hero image.  I added padding for the smaller screens only to push my name down to prevent this.
     
 
 Acknowledgements

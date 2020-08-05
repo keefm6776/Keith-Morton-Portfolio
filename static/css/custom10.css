@@ -4,7 +4,18 @@
   background: transparent;
 }
 
-body, html {
+body {
+  padding-top: 60px;
+  height: 100%
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+    height: 100%;
+  }
+}
+
+html {
     height: 100%;
 }
 
