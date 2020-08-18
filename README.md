@@ -123,6 +123,7 @@ Adjustments Made:
 
     1.  I found the icons in the footer to be too large, causing the icons to spill to second line on small screens.  I reduced the size of the icons by 5px, which rectifies this issue.
     2.  I found on extra small screens that the navbar was sitting over my name on the hero image.  I added padding for the smaller screens only to push my name down to prevent this.
+    3.  I found that the navbar would only stick to the top of the page for the first section.  I rectified this by wrapping the navbar and all sections before the footer in a "container-fluid" div.
     
 
 Acknowledgements
